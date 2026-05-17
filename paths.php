@@ -130,11 +130,6 @@ $industryNavItems = [
     ['label' => 'Gym & Sports', 'path' => 'industry/gym-sports.php'],
     ['label' => 'Education', 'path' => 'service/education.php'],
     ['label' => 'Travel', 'path' => 'service/travel.php'],
-    ['label' => 'B2B', 'path' => 'industry/b2b.php'],
-    ['label' => 'Fintech', 'path' => 'industry/fintech.php'],
-    ['label' => 'Retail', 'path' => 'service/retail.php'],
-    ['label' => 'Utility', 'path' => 'industry/utility.php'],
-    ['label' => 'SaaS', 'path' => 'industry/saas.php'],
 ];
 
 /** Footer Industries column — keep short (through Automotive). */
