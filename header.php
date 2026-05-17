@@ -72,17 +72,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <header class="app-header">
     <div class="container">
-        <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center app-header-bar">
             <div class="logo-left">
                 <a href="<?= htmlspecialchars(site_url(), ENT_QUOTES, 'UTF-8') ?>"><img src="<?= image_attr('logo-samarth.png') ?>" alt=""></a>
             </div>
-            <nav class="navbar navbar-expand-lg navbar-light justify-content-end py-0">
-                <div class="" bis_skin_checked="1">
-                    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <nav class="navbar navbar-expand-lg navbar-light py-0 app-header-navbar">
+                <div class="app-header-navbar-inner">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent" bis_skin_checked="1">
-                        <ul class="navbar-nav ms-lg-auto mb-2 mb-lg-0 align-items-center app-header-nav">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 align-items-center app-header-nav app-header-nav-balanced">
                             <?php include __DIR__ . '/includes/header-services-nav.php'; ?>
                             <?php include __DIR__ . '/includes/header-industries-nav.php'; ?>
                             <!-- <li class="nav-item">
@@ -101,6 +101,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </div>
             </nav>
-        </div>    
+        </div>
     </div>
 </header>

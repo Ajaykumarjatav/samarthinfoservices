@@ -191,12 +191,30 @@ p.tech-artical span{color:#636363}
 body.modal-open{overflow:hidden}
 body.modal-open .app-header{z-index:1040}
 }
-.app-header .navbar,.app-header .navbar-collapse,.app-header .container,.app-header .container>.d-flex{overflow:visible}
+.app-header .navbar,.app-header .navbar-collapse,.app-header .container,.app-header .container>.d-flex,.app-header .app-header-bar{overflow:visible}
 @media (min-width:992px){
 .app-header .navbar-expand-lg .navbar-collapse{display:flex!important;overflow:visible}
 }
-.app-header .logo-left{width:11%}
+.app-header .logo-left{width:11%;flex:0 0 auto}
 .app-header .navbar{width:70%}
+.app-header-bar{width:100%;gap:16px}
+.app-header-navbar{flex:1 1 auto;width:auto;min-width:0}
+.app-header-navbar-inner{width:100%}
+@media (min-width:992px){
+.app-header-bar .logo-left{width:auto}
+.app-header-navbar{position:relative}
+.app-header .navbar-expand-lg .navbar-collapse{width:100%;justify-content:stretch}
+.app-header .navbar-nav.app-header-nav-balanced{width:100%;margin-left:0!important;margin-right:0!important;gap:28px}
+.app-header .navbar-nav.app-header-nav-balanced::before,.app-header .navbar-nav.app-header-nav-balanced::after{content:"";flex:1 1 0;min-width:24px}
+.app-header .navbar-nav.app-header-nav-balanced::before{order:1}
+.app-header .navbar-nav.app-header-nav-balanced>.app-header-services-dropdown{order:2;flex:0 0 auto}
+.app-header .navbar-nav.app-header-nav-balanced>.app-header-industries-dropdown{order:3;flex:0 0 auto}
+.app-header .navbar-nav.app-header-nav-balanced::after{order:4}
+.app-header .navbar-nav.app-header-nav-balanced>.about-btn-green{order:5;flex:0 0 auto;margin-left:0}
+}
+@media (max-width:991.98px){
+.app-header .navbar-nav.app-header-nav-balanced::before,.app-header .navbar-nav.app-header-nav-balanced::after{display:none}
+}
 .app-header .nav-item.dropdown{position:relative}
 .app-header .nav-item.dropdown .dropdown-menu{border:1px solid #eee;border-radius:10px;box-shadow:0 10px 32px rgba(0,0,0,.12);padding:8px 0;min-width:260px;margin-top:4px}
 .app-header .nav-item.dropdown .dropdown-item{padding:10px 18px;font-size:15px;line-height:1.35;color:#252525;white-space:nowrap}
@@ -357,6 +375,7 @@ body.modal-open .app-header{z-index:1040}
 .footer-panel .footer-detail-company img,.grow-banner .banner-first,.landing-page .land-page-img{width:100%}
 .app-header .logo-left{width:19%}
 .app-header .navbar{width:79%}
+.app-header-navbar{flex:1 1 auto;width:auto}
 .app-header .navbar-expand-lg .navbar-nav .nav-link{padding:12px 0}
 .app-header .navbar-expand-lg .navbar-nav .about-btn-green .nav-link{padding:6px 8px 6px 18px}
 .grow-banner h1{font-size:65px;line-height:78px;padding:0 0 90px}

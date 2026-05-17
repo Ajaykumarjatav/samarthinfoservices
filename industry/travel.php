@@ -11,9 +11,9 @@ require_once __DIR__ . '/../header.php';
   <div class="container">
     <div class="hero-grid">
       <div class="hero-text">
-        <div class="badge">Education Industry</div>
-        <h1>Grow Your Education Brand With a Clear and Profitable Marketing System</h1>
-        <p>If enrollments and leads are inconsistent or your ads are not delivering stable results, we help you build a simple, predictable, and scalable marketing system that brings qualified students and long‑term growth.</p>
+        <div class="badge">Travel Industry</div>
+        <h1>Grow Your Travel Brand With a Clear and Profitable Marketing System</h1>
+        <p>If bookings and travel leads are inconsistent or your ads are not delivering stable results, we help you build a simple, predictable, and scalable marketing system that brings qualified travelers and long‑term growth.</p>
         <div class="hero-btns">
           <a href="#" class="audit_button">Get Your Free Audit<i class="" style="margin-left:7px;"><img src="<?= industry_image_attr('icon-1.svg') ?>" alt=""></i></a>
           <a href="#" class="studies_button">Talk to a Growth Expert</a>
@@ -45,35 +45,35 @@ require_once __DIR__ . '/../header.php';
   <div class="container">
     <div class="journey-title">
       <button class="blue_btn">Our CRO Services</button>
-      <h2 class="section-title">Where Are You in Your Education Growth Journey?</h2>
+      <h2 class="section-title">Where Are You in Your Travel Growth Journey?</h2>
     </div>
     <div class="journey-grid">
       <div class="journey-card card-active">
-        <h3>Launching a New Coaching Institute, School, or EdTech Brand?</h3>
-        <p style="font-size:16px; color:#fff; opacity: 60%; margin-bottom:14px;">If you’re building your presence from day one, we help you attract students with the right messaging and channels.</p>
+        <h3>Launching a New Travel Agency, Tour Operator, or Hospitality Brand?</h3>
+        <p style="font-size:16px; color:#fff; opacity: 60%; margin-bottom:14px;">If you’re building your presence from day one, we help you attract travelers with the right messaging and channels.</p>
         <h2 style="font-size: 25px; color: #fff; margin-bottom: 14px;">We help you with</h2>
         <ul class="check-list">
           <li><i class=""><img src="<?= industry_image_attr('card1.svg') ?>" alt=""></i> Local SEO & Google Business Profile setup</li>
-          <li><i class=""><img src="<?= industry_image_attr('card2.svg') ?>" alt=""></i> High-converting landing pages for courses and programs</li>
+          <li><i class=""><img src="<?= industry_image_attr('card2.svg') ?>" alt=""></i> High-converting landing pages for packages and destinations</li>
           <li><i class=""><img src="<?= industry_image_attr('card3.svg') ?>" alt=""></i> Lead forms, call tracking & CRM setup</li>
           <li><i class=""><img src="<?= industry_image_attr('card4.svg') ?>" alt=""></i> WhatsApp & email follow-up automation</li>
           <li><i class=""><img src="<?= industry_image_attr('card5.svg') ?>" alt=""></i> Analytics and conversion tracking</li>
-          <li><i class=""><img src="<?= industry_image_attr('card6.svg') ?>" alt=""></i> Launch campaigns for your flagship courses and campuses</li>
+          <li><i class=""><img src="<?= industry_image_attr('card6.svg') ?>" alt=""></i> Launch campaigns for your signature tours and destinations</li>
           
         </ul>
         <span>Start with a lead generation system that works</span>
         <a href="#" class="audit_button">Setup Your Business<i class="" style="margin-left:7px;"><img src="<?= industry_image_attr('icon-1.svg') ?>" alt=""></i></a>
       </div>
       <div class="journey-card">
-        <h3>Already Running an Institute, Academy, or EdTech Platform?</h3>
-        <p style="font-size:16px; color:#000; opacity: 60%; margin-bottom:14px;">If you have traffic but inconsistent enrollments, we optimize your funnel and campaigns for stable student growth.</p>
+        <h3>Already Running a Travel Agency, DMC, or Hospitality Brand?</h3>
+        <p style="font-size:16px; color:#000; opacity: 60%; margin-bottom:14px;">If you have traffic but inconsistent bookings, we optimize your funnel and campaigns for stable travel growth.</p>
         <h2 style="font-size: 25px; color: #000; margin-bottom: 14px;">We help you with</h2>
         <ul class="check-list mobile-icon-height">
           <li><i class=""><img src="<?= industry_images_attr('ant-design-funnel-plot-outlined.svg') ?>" alt=""></i>Improving landing pages and inquiry conversions</li>
           <li><i class=""><img src="<?= industry_images_attr('logos-google-ads.svg') ?>" alt=""></i>Increasing ROAS on Meta &amp; Google Ads</li>
           <li><i class=""><img src="<?= industry_images_attr('mingcute-target-line.svg') ?>" alt=""></i>Retargeting website visitors and past inquiries</li>
-          <li><i class=""><img src="<?= industry_images_attr('tabler-bulb.svg') ?>" alt=""></i>Scaling campaigns by location or course category</li>
-          <li><i class=""><img src="<?= industry_images_attr('icon-park-outline-transaction-order.svg') ?>" alt=""></i>Improving cost per lead and enrollment rate</li>
+          <li><i class=""><img src="<?= industry_images_attr('tabler-bulb.svg') ?>" alt=""></i>Scaling campaigns by destination or package type</li>
+          <li><i class=""><img src="<?= industry_images_attr('icon-park-outline-transaction-order.svg') ?>" alt=""></i>Improving cost per lead and booking rate</li>
           <li><i class=""><img src="<?= industry_images_attr('gravity-ui-gear.svg') ?>" alt=""></i>Full‑funnel optimization for predictable growth</li>
       
         
@@ -94,20 +94,20 @@ require_once __DIR__ . '/../header.php';
         <button class="blue_btn">Our CRO Services</button>
         <h2 class="section-title">Our Specialized<br>Marketing Solutions</h2>
       </div>
-      <p class="section-sub" style="margin-top:8px;">Running ads is easy. Growing an education brand profitably is not. We help you build a complete marketing setup that brings the right students, converts inquiries, and builds lasting trust.</p>
+      <p class="section-sub" style="margin-top:8px;">Running ads is easy. Growing a travel brand profitably is not. We help you build a complete marketing setup that brings the right travelers, converts inquiries, and builds lasting loyalty.</p>
     </div>
     <div class="services-grid">
 
       <div class="service-card">
         <div class="icon-box icon-box-teal"><i class="icon_our"><img src="<?= industry_image_attr('logos_meta-icon.svg') ?>" alt=""></i></div>
-        <h4>Meta Ads for education lead generation</h4>
+        <h4>Meta Ads for travel lead generation</h4>
         
         <a href="#" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
       </div>
 
       <div class="service-card">
         <div class="icon-box icon-box-teal"><i class="icon_our"><img src="<?= industry_image_attr('solu1.png') ?>" alt=""></i></div>
-        <h4>Google Search & Local Ads for institutes</h4>
+        <h4>Google Search & Local Ads for travel brands</h4>
         
         <a href="#" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
       </div>
@@ -135,7 +135,7 @@ require_once __DIR__ . '/../header.php';
 
       <div class="service-card">
         <div class="icon-box icon-box-teal"><i class="icon_our"><img src="<?= industry_image_attr('solu5.png') ?>" alt=""></i></div>
-        <h4>Retargeting & enrollment follow-up</h4>
+        <h4>Retargeting & booking follow-up</h4>
         
         <a href="#" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
       </div>
@@ -195,11 +195,11 @@ require_once __DIR__ . '/../header.php';
     <div class="hero-grid">
       <div class="hero-text">
         <div class="badge">About the Industry</div>
-        <h1>Creating a Sustainable Ecosystem for Modern Education Growth</h1>
-        <p>Education choices are evolving fast, and students have more options than ever. They compare programs, read reviews, and choose institutes they trust. To grow in this environment, you need more than ads — you need a clear marketing system that builds credibility, converts inquiries, and fills your batches.
+        <h1>Creating a Sustainable Ecosystem for Modern Travel Growth</h1>
+        <p>Travel planning is evolving fast, and travelers have more options than ever. They compare packages, read reviews, and choose brands they trust. To grow in this environment, you need more than ads — you need a clear marketing system that builds credibility, converts inquiries, and fills your booking calendar.
 
 </p>
-        <p>We help you create that system so your institute can grow consistently with qualified enrollments and leads.</p>
+        <p>We help you create that system so your business can grow consistently with qualified bookings and inquiries.</p>
       </div>
     </div>
   </div>
@@ -212,12 +212,12 @@ require_once __DIR__ . '/../header.php';
       <div class="str-phone"><img src="<?= industry_image_attr('Group 569.png') ?>" alt=""></div>
       <div>
         <button class="blue_btn">Our CRO Services</button>
-        <h2 class="section-title">The Struggles Every Education <br>Provider Knows</h2>
-        <p class="section-sub">Growing an education brand today means balancing competition, trust, and rising ad costs. </p>
+        <h2 class="section-title">The Struggles Every Travel <br>Professional Knows</h2>
+        <p class="section-sub">Growing a travel brand today means balancing competition, seasonality, and rising ad costs. </p>
         <div class="str-list">
           <div class="str-item">
             <i class="vector_icons"><img src="<?= industry_image_attr('Vector (1).svg') ?>" alt=""></i>
-            <h5>Ad costs keep rising but enrollments don’t</h5>
+            <h5>Ad costs keep rising but bookings don’t</h5>
           </div>
           <div class="str-item">
             <i class="vector_icons"><img src="<?= industry_image_attr('Vector (1).svg') ?>" alt=""></i>
@@ -233,7 +233,7 @@ require_once __DIR__ . '/../header.php';
           </div>
           <div class="str-item">
             <i class="vector_icons"><img src="<?= industry_image_attr('Vector (1).svg') ?>" alt=""></i>
-            <h5>No clarity on which channel brings real students</h5>
+            <h5>No clarity on which channel brings real travelers</h5>
           </div>
           <div class="str-item">
             <i class="vector_icons"><img src="<?= industry_image_attr('Vector (1).svg') ?>" alt=""></i>
@@ -262,10 +262,10 @@ require_once __DIR__ . '/../header.php';
                     <div class="slider-left">
                         <img src="<?= industry_images_attr('group-201.png') ?>" alt="">
                         <p class="case-title">Local Business Growth with Meta Ada</p>
-                        <p class="case-industry">Industry <strong> Education</strong></p>
+                        <p class="case-industry">Industry <strong> Travel</strong></p>
                         <div class="d-flex case-flex-first">
                             <p class="case-type">Challenges</p>
-                            <p class="case-type-two">Needed more qualified enrollments</p>
+                            <p class="case-type-two">Needed more qualified bookings</p>
                         </div>
                         <div class="d-flex case-flex-first case-flex-two">
                             <p class="case-type">Solutions</p>
@@ -491,7 +491,7 @@ require_once __DIR__ . '/../header.php';
             <div class="slider-left">
                 <img src="<?= image_attr('case-icon5.png') ?>" alt="">
                 <p class="case-title">A offline Tuition Classes</p>
-                <p class="case-industry">Industry <strong> Education</strong></p>
+                <p class="case-industry">Industry <strong> Travel</strong></p>
                 <div class="d-flex case-flex-first">
                     <p class="case-type">Challenges</p>
                     <p class="case-type-two">Struggled with high ad spend & low<br> conversion rates</p>
@@ -566,8 +566,8 @@ require_once __DIR__ . '/../header.php';
         <div class="slider-box d-flex justify-content-between">
             <div class="slider-left">
                 <img src="<?= image_attr('case-icon7.png') ?>" alt="">
-                <p class="case-title">A Growing Coaching Institute</p>
-                <p class="case-industry">Industry <strong> Education</strong></p>
+                <p class="case-title">A Travel & Tourism Brand</p>
+                <p class="case-industry">Industry <strong> Travel</strong></p>
                 <div class="d-flex case-flex-first">
                     <p class="case-type">Challenges</p>
                     <p class="case-type-two">Struggled with high ad spend & low<br> conversion rates</p>
@@ -613,14 +613,14 @@ require_once __DIR__ . '/../header.php';
   <div class="container">
     <div class="why-header">
       <button class="blue_btn">Our CRO Services</button>
-      <h2 class="section-title">Why Choose Us for Education Marketing</h2>
-      <p class="section-sub" style="color:#fff; margin:0 auto;">Here’s why education brands trust us with their growth:</p>
+      <h2 class="section-title">Why Choose Us for Travel Marketing</h2>
+      <p class="section-sub" style="color:#fff; margin:0 auto;">Here’s why travel brands trust us with their growth:</p>
     </div>
     <div class="why-grid">
       <div class="why-card">
         <div class="icon-box icon-box-teal"><i class=""><img src="<?= industry_image_attr('Vector (3).svg') ?>" alt=""></i></div>
-        <h4>We understand how students search and choose institutes</h4>
-        <p>We dive deep into student behavior to understand what drives trust, inquiries, and enrollments.</p>
+        <h4>We understand how travelers search and choose agencies</h4>
+        <p>We dive deep into traveler behavior to understand what drives trust, inquiries, and bookings.</p>
       </div>
       <div class="why-card">
         <div class="icon-box icon-box-teal"><i class=""><img src="<?= industry_image_attr('Vector (2).svg') ?>" alt=""></i></div>
@@ -635,7 +635,7 @@ require_once __DIR__ . '/../header.php';
       <div class="why-card">
         <div class="icon-box icon-box-teal"><i class=""><img src="<?= industry_image_attr('bxs_purchase-tag.svg') ?>" alt=""></i></div>
         <h4>We improve lead quality and client lifetime value</h4>
-        <p>We implement strategies designed to attract the right students and encourage referrals.</p>
+        <p>We implement strategies designed to attract the right travelers and encourage repeat bookings.</p>
       </div>
       <div class="why-card">
         <div class="icon-box icon-box-teal"><i class=""><img src="<?= industry_image_attr('tabler_click-filled.svg') ?>" alt=""></i></div>
@@ -645,7 +645,7 @@ require_once __DIR__ . '/../header.php';
       <div class="why-card">
         <div class="icon-box icon-box-teal"><i class=""><img src="<?= industry_image_attr('mdi_cart.svg') ?>" alt=""></i></div>
         <h4>We use automation to recover lost inquiries</h4>
-        <p>We set up automated follow-up systems that nurture leads who didn’t enroll on the first visit.</p>
+        <p>We set up automated follow-up systems that nurture leads who didn’t book on the first visit.</p>
       </div>
     </div>
   </div>
@@ -670,8 +670,8 @@ require_once __DIR__ . '/../header.php';
       <div class="ind-tag"><i class=""><img src="<?= industry_image_attr('realestate.png') ?>" alt=""></i> Real Estate</div>
       <div class="ind-tag"><i class=""><img src="<?= industry_image_attr('restorent.png') ?>" alt=""></i> Restaurants</div>
       <div class="ind-tag"><i class=""><img src="<?= industry_image_attr('gym.png') ?>" alt=""></i> Gym & Sports</div>
-      <div class="ind-tag active"><i class=""><img src="<?= industry_image_attr('education.png') ?>" alt=""></i> Education</div>
-      <div class="ind-tag"><i class=""><img src="<?= industry_image_attr('travel.png') ?>" alt=""></i> Travel</div>
+      <div class="ind-tag"><i class=""><img src="<?= industry_image_attr('education.png') ?>" alt=""></i> Education</div>
+      <div class="ind-tag active"><i class=""><img src="<?= industry_image_attr('travel.png') ?>" alt=""></i> Travel</div>
 
     </div>
     </div>

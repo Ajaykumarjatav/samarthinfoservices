@@ -120,16 +120,16 @@ $serviceNavItems = [
 $industryNavItems = [
     ['label' => 'Banking & Finance', 'path' => 'industry/banking-finance.php'],
     ['label' => 'E-commerce', 'path' => 'industry/e-commerce.php'],
-    ['label' => 'Healthcare', 'path' => 'service/healthcare.php'],
+    ['label' => 'Healthcare', 'path' => 'industry/healthcare.php'],
     ['label' => 'Wholesale', 'path' => 'industry/wholesale.php'],
     ['label' => 'Non Profit', 'path' => 'industry/non-profit.php'],
     ['label' => 'Automotive', 'path' => 'industry/automotive.php'],
     ['label' => 'Logistics', 'path' => 'industry/logistics.php'],
-    ['label' => 'Real Estate', 'path' => 'service/real-state.php'],
-    ['label' => 'Food & Restaurant', 'path' => 'service/food-restorent.php'],
+    ['label' => 'Real Estate', 'path' => 'industry/real-state.php'],
+    ['label' => 'Food & Restaurant', 'path' => 'industry/food-restorent.php'],
     ['label' => 'Gym & Sports', 'path' => 'industry/gym-sports.php'],
-    ['label' => 'Education', 'path' => 'service/education.php'],
-    ['label' => 'Travel', 'path' => 'service/travel.php'],
+    ['label' => 'Education', 'path' => 'industry/education.php'],
+    ['label' => 'Travel', 'path' => 'industry/travel.php'],
 ];
 
 /** Footer Industries column — keep short (through Automotive). */

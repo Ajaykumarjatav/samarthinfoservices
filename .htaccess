@@ -2,6 +2,13 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} ^www\.samarthinfoservices\.com [NC]
 RewriteRule ^(.*)$ https://samarthinfoservices.com/$1 [L,R=301]
 
+# Legacy industry URLs under /service/ → /industry/
+RewriteRule ^service/healthcare\.php$ industry/healthcare.php [R=301,L]
+RewriteRule ^service/travel\.php$ industry/travel.php [R=301,L]
+RewriteRule ^service/real-state\.php$ industry/real-state.php [R=301,L]
+RewriteRule ^service/food-restorent\.php$ industry/food-restorent.php [R=301,L]
+RewriteRule ^service/education\.php$ industry/education.php [R=301,L]
+
 # Route everything else to index.php
 # RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
 
