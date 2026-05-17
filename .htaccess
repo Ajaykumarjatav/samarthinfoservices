@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.samarthinfoservices\.com [NC]
+RewriteRule ^(.*)$ https://samarthinfoservices.com/$1 [L,R=301]
+
+# Route everything else to index.php
+# RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+
+# Block javascript: in URL
+RewriteCond %{THE_REQUEST} javascript: [NC]
+RewriteRule .* - [F,L]
+
+ErrorDocument 404 /404.php
